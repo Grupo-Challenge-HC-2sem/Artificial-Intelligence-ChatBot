@@ -1,0 +1,39 @@
+Projeto: Artificial Intelligence & Chatbot
+
+Tema:
+Auxílio a pessoas com dificuldade em utilizar o celular na saúde digital, visando reduzir absenteísmo em consultas (20% -> <10%)
+
+Fonte dos dados:
+- Dados retirados em cenários comuns enfrentados por pacientes do Hospital das Clínicas e Instituto de Medicina Física e Reabilitação (IMREA).
+- Inspirados em pesquisas sobre e-Saúde e acessibilidade digital para idosos e pessoas com baixo letramento digital.
+- Os dados foram coletados por meio de formulários aplicados a pacientes, contendo perguntas sobre idade, escolaridade, letramento digital, tipo de consulta, dificuldades e sugestões para o atendimento remoto.
+
+Significado dos campos:
+- id: identificador único do registro.
+- idade: idade aproximada do paciente (impacta na dificuldade digital).
+- escolaridade: nível de instrução do paciente (sem escolaridade, fundamental, médio, superior).
+- letramento_digital: nível de familiaridade com tecnologia (baixo, médio, alto).
+- tipo_consulta: teleconsulta ou presencial.
+- perdeu_consulta: se o paciente já perdeu uma consulta por dificuldade digital (sim/não).
+- dificuldade_principal: categoria da principal barreira enfrentada (senha, link, áudio, câmera, internet, mensagem).
+- relato_paciente: descrição espontânea da dificuldade (fala do usuário).
+- sugestao_chatbot: recomendação de como o chatbot poderia ajudar.
+
+Quantidade:
+40 registros organizados.
+
+Qualidade:
+- Diversidade de idades (18 a 82 anos).
+- Variedade de níveis de escolaridade e letramento digital.
+- Amplo espectro de problemas reais em teleconsultas (senha, link, áudio, câmera, internet, mensagens).
+
+Objetivo:
+Treinar um chatbot capaz de:
+1. Responder dúvidas simples relacionadas a acesso digital em consultas.
+2. Orientar com instruções claras, visuais ou em áudio.
+3. Reduzir faltas em consultas digitais, especialmente entre idosos e pessoas com deficiência ou baixo letramento digital.
+
+Integrantes do Grupo:
+- João Victor Nascimento Adão | RM: 563409 | Turma: 1TDSPG
+- André Emygdio Ferreira | RM: 565592 | Turma: 1TDSPG
+- Gabriel Lourenço Müller | RM: 561995 | Turma: 1TDSPO
