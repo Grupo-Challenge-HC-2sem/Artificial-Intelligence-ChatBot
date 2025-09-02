@@ -1,0 +1,75 @@
+EXPLICAÇÃO DETALHADA DOS DADOS:
+
+Fonte dos Dados:
+Retirados em problemas comuns reportados em fóruns de saúde, reviews de apps (Google Play/App Store) e literature técnica.
+
+Metadados Demográficos: Distribuição de idade e gênero baseada no dataset real Medical Appointment No-Shows.
+
+Problemas Detalhados: Textos retirados em reviews extraídos de datasets como Google Play Store Reviews (filtrados para apps de telemedicina) e Mental Health Tech Platform Reviews.
+
+Links do Kaggle:
+https://www.kaggle.com/datasets/joniarroba/noshowappointments
+https://www.kaggle.com/datasets/lava18/google-play-store-apps
+https://www.kaggle.com/datasets/reihanenamdari/mental-health-corpus/discussion?sort=undefined
+https://www.kaggle.com/datasets/rupindersinghrana/telehealth-services-for-medicaid-and-chip-population
+
+--------------------------------------------------------------------------------------------------------------------
+
+Significado das Colunas:
+ID: Identificador único para cada registro.
+
+Faixa_Etaria: Idade do usuário. Dados sintéticos, mas seguem distribuição real de datasets médicos.
+
+Genero: Gênero do usuário (Feminino, Masculino, Não-Binário).
+
+Tipo_Problema: Categoria do problema (Tecnológico, Agendamento, Usabilidade, etc.).
+
+Problema_Detalhado: Descrição textual do problema em linguagem natural (dado mais valioso para NLP).
+
+Frequencia: Quantas vezes o problema ocorreu (1 = evento único, 2+ = recorrente).
+
+Impacto: Escala de 1 a 5 (1 = baixo, 5 = crítico) baseado na gravidade percebida.
+
+Plataforma: Plataforma onde o problema ocorreu (ex: "App Médico X", "Plataforma Y").
+
+Fonte_Original: Indica se o dado foi sintetizado ou inspirado em fonte real (ex: "Dataset No-Shows", "Review Google Play").
+
+--------------------------------------------------------------------------------------------------------------------
+
+Quantidade e Qualidade:
+Tamanho: 500 registros (suficiente para treinamento inicial de modelos de classificação).
+
+Qualidade:
+
+Dados balanceados entre categorias de problemas.
+
+Textos com variação linguística natural (ex.: "áudio cortando", "som falhando").
+
+Metadados consistentes (ex.: idades válidas, gêneros distribuídos).
+
+--------------------------------------------------------------------------------------------------------------------
+
+Características Importantes para IA:
+Rótulos Claros: Tipo_Problema é um label categórico ideal para treinar classificadores.
+
+Dados Textuais Ricos: Problema_Detalhado permite treinar modelos de NLP para extração de features.
+
+Metadados Estruturados: Idade, Gênero e Plataforma permitem análise de correlações.
+
+Variável Alvo: Impacto pode ser usado para treinar modelos de regressão ou priorização.
+
+--------------------------------------------------------------------------------------------------------------------
+
+Objetivo:
+Treinar um chatbot capaz de:
+1. Responder dúvidas simples relacionadas a acesso digital em consultas.
+2. Orientar com instruções claras, visuais ou em áudio.
+3. Reduzir faltas em consultas digitais, especialmente entre idosos e pessoas com deficiência ou baixo letramento digital.
+
+--------------------------------------------------------------------------------------------------------------------
+
+Integrantes do Grupo:
+- João Victor Nascimento Adão | RM: 563409 | Turma: 1TDSPG
+- André Emygdio Ferreira | RM: 565592 | Turma: 1TDSPG
+- Gabriel Lourenço Müller | RM: 561995 | Turma: 1TDSPO
+
